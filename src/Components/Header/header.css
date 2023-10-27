@@ -1,0 +1,35 @@
+/* .navbar {
+  min-height: 10vh !important ; 
+  width: 100%;
+  background-color: lightslategray;
+  background-color:  #2c3e50;
+ 
+}
+
+.navbar-brand {
+  margin-left: 5%;
+  margin-right: 10%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbar-brand:hover {
+  border: 2px solid white !important;
+  box-shadow: 2px 2px rgb(217, 213, 213);
+}
+
+.nav-item {
+  margin-left: 5%;
+  font-weight: bold;
+  font-size: 0.7;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-transform: uppercase;
+  min-width: fit-content;
+}
+
+.nav-item:hover {
+  box-shadow: 2px 2px white;
+}
+
+.nav-link {
+  text-shadow: 2px 2px 5px whitesmoke;
+} */
