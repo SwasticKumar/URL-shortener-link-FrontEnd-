@@ -33,3 +33,31 @@
 .nav-link {
   text-shadow: 2px 2px 5px whitesmoke;
 } */
+.bg-n {
+  background-position: 0 0;
+  background-image: linear-gradient(260deg, black,#bdc3c7, #2c3e50,  #2c3e50,#bdc3c7,black);
+  background-size: 300%;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: menugradientanimation;
+}
+@keyframes menugradientanimation {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 50% 0;
+  }
+  50% {
+    background-position: 90% 0;
+  }
+  60% {
+    background-position: 60%;
+  }
+  80% {
+    background-position: 40%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}

@@ -52,7 +52,7 @@ const Header = () => {
           <img
             src="./image/url-logo.png"
             alt="logo"
-            style={{ width: "5rem" }}
+            style={{ width: "3.5rem" }}
           />
         </Link>
 
@@ -60,7 +60,7 @@ const Header = () => {
           <li className="nav-item ">
             <Link
               style={{ textDecoration: "none" }}
-              className="text-white mx-4 fs-4"
+              className="text-white mx-4 fs-3"
               to="/signup"
             >
               Signup
@@ -69,14 +69,14 @@ const Header = () => {
           <li className="nav-item ">
             <Link
               style={{ textDecoration: "none" }}
-              className="text-white  fs-4"
+              className="text-white  fs-3"
               to="/dashboard-url"
             >
               Dashboard
             </Link>
           </li>
           <li className="nav-item ">
-            <Link className="text-white mx-4 fs-4" to="/login">
+            <Link className="text-white mx-4 fs-3" to="/login">
               <i class="fas fa-home"></i>
             </Link>
           </li>
@@ -84,7 +84,7 @@ const Header = () => {
           <li className="nav-item">
             <Link
               to="/login"
-              className="fs-4  text-white"
+              className="fs-3 text-white"
               onClick={handleLogout}
             >
               <i class="fa-solid fa-power-off "></i>

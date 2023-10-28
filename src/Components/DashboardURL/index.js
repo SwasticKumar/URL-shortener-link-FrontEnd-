@@ -115,6 +115,7 @@ function DashboardURL() {
   return ( 
       <>
        {/* <LogButton/>  */}
+       <div className='dash text-dark'>
        <h5 className="fs-4 text-decoration-underline mb-3"> URL Dashboard </h5> 
        {!(localStorage.getItem("loggedUsername")) ? <h5 className='my-2'>Log in to use the app.</h5>
        : <div className='container-fluid'>
@@ -123,10 +124,10 @@ function DashboardURL() {
           <div className='d-flex flex-column justify-content-center align-items-center'>
               <h6> Past month activity : </h6> 
               <h2> {monthlyURLlist.length}</h2>
-              <button className='btn btn-primary my-2'>
+              <button className='btn btn-success my-2'>
               <NavLink className="nav-link" to="/create-url">Create URL</NavLink>
               </button> 
-              <button className='btn btn-primary my-2'>
+              <button className='btn btn-danger my-2'>
               <NavLink className="nav-link" to="/all-url">View all URLs</NavLink>
               </button> 
           </div>
@@ -169,6 +170,7 @@ function DashboardURL() {
           <AllURL />
         </div>
        </div>
+       
        } 
       {/* <div className='mx-5'>
 
@@ -198,6 +200,7 @@ function DashboardURL() {
       }
       </div>  */}
 
+</div>
     </>
   )
 }
